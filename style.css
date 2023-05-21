@@ -1,3 +1,10 @@
+.container{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.scroll-content{
+    display: inline-block;
+}
 .menu{
     list-style-type: none;
     margin: 0;
