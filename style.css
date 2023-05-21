@@ -62,27 +62,22 @@ button:hover{
     button a:hover{
         color: #4c3113;
     }
-.main-page{
-    background-image: url(src/image/baloon6.jpg);
-    background-size: cover;
-    background-position: center;
-    height: max-content;
-}
+
 .image-container{
     position: relative;
     overflow: hidden;
 }
 .image-container img{
     display: block;
-    width:100%;
-    height: auto;
+    width:auto;
+    height: 130px;
 }
 .overlay{
     position: absolute;
     top: 0;
     left:0;
     width: 100%;
-    height: auto;
+    height: 100%;
 background-color: rgba(0, 0, 0, 0.7);
 opacity: 0;
 transition:opacity solid 0.3ms ease;
@@ -112,12 +107,20 @@ transition:opacity solid 0.3ms ease;
     margin-top: 10px;
     padding: 0 20px;
 }
-.main-page, .food-page{
-    width: 100vw;
-    height: 100vw;
+.main-page{
+    background-image: url(src/image/baloon6.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+}
+ .food-page, .main-page{
+    width: 50%;
+    height: 100%;
     display: inline-block;
+    vertical-align: top;
     white-space: normal;
 }
+
 
 
 
