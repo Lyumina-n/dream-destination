@@ -1,4 +1,4 @@
-.container{
+.scroll-container{
     overflow-x: auto;
     white-space: nowrap;
 }
@@ -112,7 +112,12 @@ transition:opacity solid 0.3ms ease;
     margin-top: 10px;
     padding: 0 20px;
 }
-
+.main-page, .food-page{
+    width: 100vw;
+    height: 100vw;
+    display: inline-block;
+    white-space: normal;
+}
 
 
 
