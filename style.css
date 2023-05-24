@@ -114,13 +114,4 @@ transition:opacity solid 0.3ms ease;
     white-space: normal;
 }
 
-.slider{
-position: relative;   
-}
-.slide{
-     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    }
 
